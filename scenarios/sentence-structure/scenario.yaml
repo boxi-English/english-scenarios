@@ -1,0 +1,15 @@
+id: sentence-structure-meaning
+title: "One conditional, two intentions"
+learner_level: "intermediate"
+objective: "Connect conditional form to a past decision and produce a new example"
+context: "A speaker is explaining a missed call after seeing an earlier warning."
+input: fixture.json
+task: "Choose the sentence that matches the past unreal condition, then write one new example."
+feedback_dimensions:
+  - form
+  - time_reference
+  - communicative_fit
+revision_prompt: "Add the missing time reference and make the consequence specific."
+transfer_prompt: "Write a new sentence about a warning you did not see."
+transcript: lesson.md
+license: CC-BY-4.0
