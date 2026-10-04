@@ -1,0 +1,19 @@
+{
+  "item_id": "counterfactual-1",
+  "segments": [
+    {"id": "prompt", "text": "The speaker did not know about the warning and did not call."},
+    {"id": "target", "text": "If I had known earlier, I would have called you."}
+  ],
+  "choices": [
+    "If I know earlier, I call you.",
+    "If I had known earlier, I would have called you.",
+    "If I knew earlier, I will call you."
+  ],
+  "expected_choice": 1,
+  "response_dimensions": {
+    "form": "past perfect condition plus would have consequence",
+    "time_reference": "the condition and consequence are both before now",
+    "communicative_fit": "the sentence explains a missed past action"
+  },
+  "transfer_prompt": "If I had seen the warning, I would have stopped."
+}
